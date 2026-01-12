@@ -1,4 +1,5 @@
 //Juan Guillermo Gomez Landinez-Samuel Andres Rey Marquez
+// MARRAKECH
 #include<iostream>
 #include<ctime>
 #include<fstream>
@@ -81,11 +82,11 @@ int main ()
     cout<<"                         B I E N V E N I D O   A   M A R R A K E C H                             "<<endl;
     cout<<endl;
     cout<<endl;
-    cout<<"     ¡Bienvenidos a la plaza de Marrakech!"<<endl;
+    cout<<"     Â¡Bienvenidos a la plaza de Marrakech!"<<endl;
     cout<<endl;
-    cout<<"     Hay un montón de vendedores con compitiendo por generar mucho dinero con sus alfombras"<<endl;
+    cout<<"     Hay un montÃ³n de vendedores con compitiendo por generar mucho dinero con sus alfombras"<<endl;
     cout<<endl;
-    cout<<"     ¿Quieres ser el ganador? Expone mas alfombras que tu rival en la plaza y cobra el  uso"<<endl;
+    cout<<"     Â¿Quieres ser el ganador? Expone mas alfombras que tu rival en la plaza y cobra el  uso"<<endl;
     cout<<endl;
     cout<<"     de tus alfombras                                                                      "<<endl;
     cout<<endl;
@@ -96,15 +97,15 @@ int main ()
     cout<<"     1.)Tu turno consta de 2 acciones: 1. Mover a Hassam 2. Colocar las alfombras          "<<endl;
     cout<<endl;
     cout<<endl;
-    cout<<"     2.)Hassam no puede girar hacia atrás, por lo tanto el juego te indicará  la  dirección"<<endl;
+    cout<<"     2.)Hassam no puede girar hacia atrÃ¡s, por lo tanto el juego te indicarÃ¡  la  direcciÃ³n"<<endl;
     cout<<endl;
-    cout<<"     hacia la que está mirando                                                             "<<endl;
-    cout<<endl;
-    cout<<endl;
-    cout<<"     3.)Hassam estará señalizado por una 'x' dentro del tablero"<<endl;
+    cout<<"     hacia la que estÃ¡ mirando                                                             "<<endl;
     cout<<endl;
     cout<<endl;
-    cout<<"     4.)El juego te preguntará solamente la direccion en la cual quieres realizar alguna de"<<endl;
+    cout<<"     3.)Hassam estarÃ¡ seÃ±alizado por una 'x' dentro del tablero"<<endl;
+    cout<<endl;
+    cout<<endl;
+    cout<<"     4.)El juego te preguntarÃ¡ solamente la direccion en la cual quieres realizar alguna de"<<endl;
     cout<<endl;
     cout<<"     las 2 acciones, debes responder la letra correspondiente                              "<<endl;
     cout<<endl;
@@ -119,13 +120,13 @@ int main ()
     cout<<endl;
     cout<<"     7.)Los controles del juego son:                                                       "<<endl;
     cout<<endl;
-    cout<<"      a: Indicar la acción hacia arriba                                                    "<<endl;
+    cout<<"      a: Indicar la acciÃ³n hacia arriba                                                    "<<endl;
     cout<<endl;
-    cout<<"      b: Indicar la acción hacia abajo                                                     "<<endl;
+    cout<<"      b: Indicar la acciÃ³n hacia abajo                                                     "<<endl;
     cout<<endl;
-    cout<<"      c: Indicar la acción hacia la izquierda                                              "<<endl;
+    cout<<"      c: Indicar la acciÃ³n hacia la izquierda                                              "<<endl;
     cout<<endl;
-    cout<<"      d: Indicar la acción hacia la derecha                                                "<<endl;
+    cout<<"      d: Indicar la acciÃ³n hacia la derecha                                                "<<endl;
     cout<<endl;
     cout<<endl;
     cout<<"     8.)El juego termina cuando alguno de  los jugadores  se quede sin monedas o  cuando se"<<endl;
@@ -133,7 +134,7 @@ int main ()
     cout<<"     llene el Mercado de Marrakech"<<endl;
     cout<<endl;
     cout<<endl;
-    cout<<"     Una vez hayas leído esto, ¡Estás listo! A JUGAR!!!"<<endl;
+    cout<<"     Una vez hayas leÃ­do esto, Â¡EstÃ¡s listo! A JUGAR!!!"<<endl;
     cout<<endl;
     cout<<endl;
     cout<<"     Bienvenido a Marrakech"<<endl;
@@ -921,7 +922,7 @@ void registro (jugador p[], string equipo)
     }
         d.close();
         a.close();
-        cout<<"     Reporte final de la partida generado, entra a la biblioteca de archivos, y en la carpeta donde está el juego, busca el documento de texto con el nombre PARTIDA"<<endl;
+        cout<<"     Reporte final de la partida generado, entra a la biblioteca de archivos, y en la carpeta donde estÃ¡ el juego, busca el documento de texto con el nombre PARTIDA"<<endl;
 }
 }
 void establecer_color(char contenido) {
@@ -941,3 +942,4 @@ void establecer_color(char contenido) {
             break;
     }
 }
+
